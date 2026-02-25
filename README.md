@@ -31,7 +31,7 @@ This is not a tutorial. It is a **complete DeFi protocol** designed to:
 - 🔐 Implement DeFi security best practices (reentrancy guards, oracle staleness, access control, pause mechanisms)
 - 🗳️ Demonstrate on-chain DAO governance (OpenZeppelin Governor + Timelock)
 
-> This project is the **complete Web3 evolution** of the original [alt-banking-system](https://github.com/Artificial-Ledger-Technology/alt-banking-system) — see [Legacy Project Recognition](#-legacy-project-recognition).
+> This project is the **complete Web3 evolution** of the original [alt-banking-system](https://github.com/flexycode/CCPRGG2L_INTERMEDIATE_FINAL_EXAM) — see [Legacy Project Recognition](#-legacy-project-recognition).
 
 ---
 
@@ -333,12 +333,12 @@ The project is built in 5 structured phases. All documentation lives in the [`do
 
 | | Legacy Project | This Project |
 |-|---------------|-------------|
-| **Repository** | [alt-banking-system](https://github.com/Artificial-Ledger-Technology/alt-banking-system) | [ALT-Ledger-Bank](https://github.com/Artificial-Ledger-Technology/ALT-Ledger-Bank) |
+| **Repository** | [alt-banking-system](https://github.com/flexycode/CCPRGG2L_INTERMEDIATE_FINAL_EXAM) | [ALT-Ledger-Bank](https://github.com/Artificial-Ledger-Technology/ALT-Ledger-Bank) |
 | **Technology** | Spring Boot · React · MySQL | Solidity · Next.js · Ethers.js |
 | **Architecture** | Centralized (Client-Server) | Decentralized (On-Chain) |
 | **Database** | MySQL RDBMS | Ethereum Blockchain |
 | **Auth** | Username + Password | Wallet Signature (EIP-712) |
-| **Year** | ~2022–2023 | 2026 |
+| **Year** | ~2023–2024 | 2026 |
 | **Status** | ✅ Archived | 🔄 Active Development |
 
 The original `alt-banking-system` was created as a capstone project for our Introduction to Programming course — a Java/Spring Boot banking system with React frontend and MySQL backend. It demonstrated CRUD operations, transaction history, account management, and security measures in a traditional web architecture.
@@ -489,11 +489,12 @@ See the [LICENSE](./LICENSE) file for the full text.
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com/?lines=Bank+From+Anywhere.+Rule+Your+Business.;Powered+by+Solidity+%26+DeFi+Protocols.;Built+by+Artificial+Ledger+Technology+🇵🇭" alt="Typing SVG" />
+<!-- <img src="https://readme-typing-svg.demolab.com/?lines=Bank+From+Anywhere.+Rule+Your+Business.;Powered+by+Solidity+%26+DeFi+Protocols.;Built+by+Artificial+Ledger+Technology+🇵🇭" alt="Typing SVG" />
+-->
 
 <br/>
 
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
+<img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExczBuMHFlMjZ4MTBrem9rNjBmcDhvNjI2bHJyaXVoZmY2aW1nczlkOSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/doXBzUFJRxpaUbuaqz/giphy.gif" width="100%">
 
 <br/>
 
