@@ -1,0 +1,53 @@
+{
+  "name": "alt-ledger-bank",
+  "version": "1.0.0",
+  "description": "A production-grade, fully on-chain decentralized banking protocol built with Solidity, DeFi protocols, and Next.js 14.",
+  "private": true,
+  "workspaces": [
+    "contracts",
+    "frontend"
+  ],
+  "scripts": {
+    "contracts:compile": "npm run compile --workspace=contracts",
+    "contracts:test": "npm run test --workspace=contracts",
+    "contracts:coverage": "npm run coverage --workspace=contracts",
+    "contracts:deploy:local": "npm run deploy:local --workspace=contracts",
+    "frontend:dev": "npm run dev --workspace=frontend",
+    "frontend:build": "npm run build --workspace=frontend",
+    "frontend:lint": "npm run lint --workspace=frontend",
+    "dev": "concurrently \"npm run contracts:deploy:local\" \"npm run frontend:dev\"",
+    "lint": "npm run lint --workspaces --if-present",
+    "format": "prettier --write \"**/*.{ts,tsx,js,jsx,sol,json,md}\"",
+    "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,sol,json,md}\"",
+    "prepare": "husky"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "hardhat": "^2.28.6",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
+    "prettier": "^3.5.3",
+    "prettier-plugin-solidity": "^1.4.2"
+  },
+  "lint-staged": {
+    "**/*.{ts,tsx,js,jsx}": [
+      "prettier --write"
+    ],
+    "**/*.sol": [
+      "prettier --plugin prettier-plugin-solidity --write"
+    ],
+    "**/*.{json,md}": [
+      "prettier --write"
+    ]
+  },
+  "engines": {
+    "node": ">=20.0.0",
+    "npm": ">=10.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Artificial-Ledger-Technology/ALT-Ledger-Bank.git"
+  },
+  "author": "Artificial Ledger Technology",
+  "license": "MIT"
+}
